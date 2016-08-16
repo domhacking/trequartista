@@ -1,0 +1,24 @@
+<!--
+  @module:   post
+  @scss:     ./source/css/module/post.scss
+  @js:       ./source/js/module/post/post.js
+-->
+
+<div class="post">
+    <h2 class="subheading">A global view of football culture</h2>
+
+        {{#posts:i}}
+            <div class="photo--container {{i}}">
+                <div class="panel--info">
+                    <div class="photographer-name">{{photographerName}}</div>
+                    <div class="picture-name">— {{photographName}}</div>
+                    <div class="picture-date">{{date}}</div>
+                </div>
+                <a href="/post/{{i}}">
+                    <img class="post-photo" src="../img/{{photo}}" alt="">
+                </a>
+            </div>
+        {{/}}
+
+         <div class="lightBox"></div>
+</div>

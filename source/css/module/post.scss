@@ -1,0 +1,94 @@
+/**
+* @module:   post
+* @js:       ./source/js/module/post/post.js
+* @html:     ./source/js/module/post/post.html
+*/
+
+
+@include module("post") {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    // position: absolute;
+    // top: 0;
+    // left: 50%;
+    // transform: translateX(-50%);
+    overflow: hidden;
+
+    .subheading{
+        margin: 30px 0 145px 0;
+        font-size: 18px;
+        color: $grey;
+    }
+
+    .photo--container{
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .post-photo{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .panel--info{
+        position: absolute;
+        height: 100%;
+        width: 25%;
+        color: $text-white;
+        background-color: $panel-backgroundColor;
+        display: block;
+        padding: 10px;
+        transform: translateX(-100%);
+        transition: all 0.5s ease-out;
+    }
+
+    .movePanel{
+        transform: translateX(0);
+    }
+
+
+    .plus{
+        background-image: url('../img/plus.png');
+        position: absolute;
+        background-size: contain;
+        right: 10px;
+        top: 10px;
+        height: 40px;
+        width: 40px;
+        z-index: 20;
+        transition: transform 0.2s ease-out
+    }
+
+    .rotate{
+        transform: rotate(45deg);
+    }
+
+    .picture-name{
+        font-family: serif;
+    }
+
+    .picture-date{
+        position: absolute;
+        bottom: 10px;
+
+    }
+
+    .back{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .lightBox{
+        position: fixed;
+        display: none;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        top: 0;
+        left: 0;
+    }
+}

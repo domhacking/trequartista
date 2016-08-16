@@ -1,0 +1,24 @@
+/**
+* @module:   nav
+* @js:       ./source/js/module/nav/nav.js
+* @html:     ./source/js/module/nav/nav.html
+*/
+
+
+@include module("nav") {
+    position: fixed;
+    right: 20px;
+    top: 30px;
+
+    .item--nav{
+        list-style: none;
+        color: $text-white;
+        font-weight: bold;
+
+        a{
+            color: $text-white;
+            text-decoration:none;
+
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/**
+* @module:   footer
+* @js:       ./source/js/module/footer/footer.js
+* @html:     ./source/js/module/footer/footer.html
+*/
+
+
+@include module("footer") {
+    margin: 0 auto;
+    width: 60%;
+
+    .container--copyRights{
+        width: 50%;
+        float: left;
+    }
+
+    .container--builtBy{
+        width: 50%;
+        float: right;
+        margin-bottom: 60px;
+    }
+
+    .footer-text{
+        font-size: 14px;
+        color: $grey;
+        margin-bottom: 5px;
+        line-height: 1;
+    }
+    // left: 50%;
+    // transform: translateX(-50%);
+}

@@ -1,0 +1,29 @@
+{
+    "posts" : [
+        {
+            "photo" : "../img/trequartista1.jpg",
+            "photographerName" : "Gaëtan Rossier",
+            "photographName" : "Football Terain",
+            "date" : "10.06.17",
+        },
+        {
+            "photo" : "../img/trequartista2.jpg",
+            "photographerName" : "Gaëtan Rossier",
+            "photographName" : "Football Terain",
+            "date" : "10.06.17",
+
+        },
+        {
+            "photo" : "../img/trequartista3.jpg",
+            "photographerName" : "Gaëtan Rossier",
+            "photographName" : "Football Terain",
+            "date" : "10.06.17",
+        },
+        /*{
+            "photo" : "../img/trequartista3.jpg",
+            "photographerName" : "Gaëtan Rossier",
+            "photographName" : "Football Terain",
+            "date" : "10.06.17"
+        },*/
+    ]
+}
